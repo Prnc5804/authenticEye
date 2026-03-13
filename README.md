@@ -137,10 +137,12 @@ http://localhost:5173
 
 ---
 
-# 👨‍💻 Author
+# 👨‍💻 Team Members
 
-**Prince Kumar**
-B.Tech CSE (IoT & CSBT)
+- Prince Kumar
+- Srishti Raj
+- Rishi Raj Karan
+- Rajdeb Sen
 
 ---
 
