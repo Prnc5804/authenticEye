@@ -1,12 +1,147 @@
-# React + Vite
+# 🔍 AuthenticEye – AI Powered Product Review Detection System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AuthenticEye is an **AI-powered web application** that analyzes product reviews and detects whether a review is **genuine or potentially fake**.
+The system leverages **Google Gemini AI** to understand the language patterns of reviews and provide intelligent insights about authenticity.
 
-Currently, two official plugins are available:
+Fake reviews are a major issue in online marketplaces. AuthenticEye helps users **identify misleading or spam reviews**, improving trust and decision-making for online purchases.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+# 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+* 🔍 Analyze product reviews using AI
+* 🤖 AI-powered detection using Google Gemini API
+* ⚡ Fast frontend built with **React + Vite**
+* 📊 Displays AI-generated authenticity analysis
+* 🧠 Natural Language Processing based evaluation
+* 🔐 Secure API key handling using environment variables
+
+---
+
+# 🛠 Tech Stack
+
+**Frontend**
+
+* React
+* Vite
+* JavaScript
+* CSS
+
+**AI Integration**
+
+* Google Gemini API
+
+---
+
+# 📂 Project Structure
+
+```
+authenticEye
+│
+├── public
+├── src
+│   ├── assets
+│   ├── App.jsx
+│   └── main.jsx
+│
+├── .env.example
+├── .gitignore
+├── index.html
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+```
+
+---
+
+# 🔑 Environment Variables
+
+Create a `.env` file in the root directory:
+
+```
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+You can obtain a Gemini API key from **Google AI Studio**.
+
+---
+
+# ⚙️ Installation & Setup
+
+### 1️⃣ Clone the repository
+
+```
+git clone https://github.com/Prnc5804/authenticEye.git
+```
+
+### 2️⃣ Navigate into the project
+
+```
+cd authenticEye
+```
+
+### 3️⃣ Install dependencies
+
+```
+npm install
+```
+
+### 4️⃣ Add your Gemini API key
+
+Create `.env` file:
+
+```
+VITE_GEMINI_API_KEY=your_api_key_here
+```
+
+### 5️⃣ Run the development server
+
+```
+npm run dev
+```
+
+The app will run at:
+
+```
+http://localhost:5173
+```
+
+---
+
+# 🧠 How It Works
+
+1. User enters a product review.
+2. The review is sent to the **Gemini AI model**.
+3. The AI analyzes linguistic patterns and context.
+4. The system returns an **AI-based authenticity assessment**.
+
+---
+
+# 🎯 Applications
+
+* Fake review detection
+* E-commerce review verification
+* Consumer trust improvement
+* Research on AI-powered text analysis
+
+---
+
+# 🔮 Future Improvements
+
+* Fake review probability score
+* Sentiment analysis
+* Support for multiple languages
+* Dataset-based ML model training
+* Browser extension for e-commerce websites
+
+---
+
+# 👨‍💻 Author
+
+**Prince Kumar**
+B.Tech CSE (IoT & CSBT)
+
+---
+
+
